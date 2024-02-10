@@ -1,0 +1,555 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #5A5858;
+} 
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#header {
+  background: linear-gradient(180deg, #2C2C2C 34%, rgba(57, 61, 66, 0.95) 81%, rgba(57, 61, 66, 0.95) 93.5%, rgba(57, 61, 66, 0.04) 99.95%, rgba(57, 61, 66, 0.00) 99.96%, rgba(57, 61, 66, 0.95) 99.97%, #393D42 99.98%);
+  position: fixed;
+  height: 8vh;  
+}
+
+#header a.nav-link {
+  color: rgb(161, 161, 161); /* Cor desejada para os links */
+  transition: .2s;
+}
+
+#header a.nav-link:hover {
+  color: #fff;
+  transform: scale(1.07);
+}
+
+#logo {
+  width: 6%;
+  right: 6%;
+  margin-left: 8%;
+}
+
+/* Adicione a propriedade cursor para o botão */
+.toggle-btn {
+  display: none;
+}
+
+/* Ajuste o posicionamento do botão */
+#toggle {
+  display: none;
+}
+
+/* Ajuste o posicionamento do botão em telas pequenas */
+#toggle-label {
+  display: none;
+}
+
+.home {
+  padding: 100px 0; /* Espaçamento interno */
+  background: #2C2C2C;
+}
+
+.home-text {
+  max-width: 100%; /* Largura máxima */
+  margin-top: 45%; /* Margem superior para separar do topo */
+}
+
+.home-text .text-h6 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #AEB372;
+  text-align: center;
+  font-weight: 600;
+}
+
+.home-text p {
+  margin-bottom: 4rem;
+  color: #FFF;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.home-btn {
+  padding: 15px 20px;
+  background: #3EB169;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-left: 31%;
+  color: white;
+  text-decoration: none;
+  transform: scale(1.07);
+}
+
+.home-btn:hover {
+  box-shadow: 0px 0px 8px #04f57c ;
+  background: #04f57c;
+  transform: scale(2);
+}
+
+.img-button {
+  width: 5%;
+  height: auto; /* Altura automática para manter a proporção */
+}
+
+.home-img {
+  position: relative;
+}
+
+.home-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.equipe {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  position: relative;
+  background: #5A5858;
+}
+
+
+.h2-equipe {
+  text-align: center;
+  margin-right: 70%;
+  white-space: nowrap; /* Impede a quebra de linha */
+  color: white;
+  position: absolute;
+  top: 25%; /* Distância de 5% do topo */
+  font-size: 40px;
+  font-weight: 600;
+
+}
+  
+.p-equipe {
+  width: 770px;
+  margin-bottom: 4rem;
+  color: #FFF;
+  text-align: center;
+  margin-top: 7%;
+  font-size: 17px;
+  position: absolute; /* Define o posicionamento absoluto */
+  right: 20%; /* Posiciona o texto a 20% da borda direita */
+  top: 35%; /* Distância de 15% do topo */
+  font-size: 20px;
+}
+
+.advogados{
+  display: flex;
+  position: absolute;
+  margin-top: 18%;
+  z-index: 2;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+.bnt-whatsapp  {
+  padding: 10px 15px;
+  background: #3EB169;
+  border-radius: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap; 
+}
+
+
+.bnt-insta{
+  padding: 10px 15px;
+  background: rgba(221, 42, 123, 0.67);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap; 
+}
+
+.equipe .card {
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0.25, 0, 0.25, 0.25), 2px 4px 4px 2px rgba(0, 0, 0, 0.25) inset;
+  height: 6rem;
+  background-color: #ffffff; /* Cor de fundo inicial */
+  width: 12rem;
+  margin-right: 2rem;
+  text-align: center;
+  width: 87%;
+}
+
+.servicos{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  margin-top: 30%;
+  position: relative;
+  background: #2C2C2C;
+}
+
+.servicos h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+
+}
+
+.servicos .card {
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0.25, 0, 0.25, 0.25), 2px 4px 4px 2px rgba(0, 0, 0, 0.25) inset;
+  height: 6rem;
+  background-color: #ffffff; /* Cor de fundo inicial */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave de cor de fundo e transformação */
+  width: 12rem;
+  margin-right: 2rem;
+  text-align: center;
+  width: 87%;
+}
+
+.servicos .card:hover {
+  background-color: #E0E0E0; /* Nova cor de fundo ao passar o mouse sobre */
+  transform: scale(1.1); /* Aumenta o tamanho do cartão ao passar o mouse sobre */
+}
+
+.card-1 {
+  position: absolute;
+  margin-top: 10%;
+  display: flex;
+}
+
+.card-2 {
+  position: absolute;
+  margin-top: 20%;
+  display: flex;  
+}
+
+.galeria {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  position: relative;
+  background: #5A5858;
+}
+
+.galeria h1 {
+  color: white;
+  text-align: center; 
+  font-weight: 600;
+}
+
+
+.localizacao {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+  position: relative;
+}
+
+.localizacao h1 {
+  color: white;
+  white-space: nowrap; 
+  font-weight: 600;
+  z-index: 2;
+}
+
+.localizacao p {
+  color: white; 
+  max-width: 630px;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.img-botao-localizacao {
+  width: 20px;
+  height: 20px;
+  margin-left: auto; /* Alinha a imagem à direita */
+  z-index: 2;
+}
+
+
+.localizacao-img {
+  position: relative;
+  display: inline-block; /* Para o elemento envolver a imagem */
+  margin-top: 10%;
+  z-index: 2;
+}
+
+.img-localizacao {
+  width: 465px; /* Para a imagem ocupar todo o espaço disponível */
+  height: auto; /* Para manter a proporção da imagem */
+  border-radius: 8px;
+  position: relative;
+  z-index: 2;
+  margin-left: 35%;
+  box-shadow: 0px 4px 4px 0px rgba(0.25, 0.25, 0.25, 0.25), 2px 4px 4px 2px rgba(0, 0, 0, 0.25) inset;
+}
+
+.img-localizacao:hover {
+  transform: scale(1.050); /* Aumenta o tamanho do cartão ao passar o mouse sobre */
+}
+
+svg{
+  position: absolute;
+  left: 0;
+}
+
+/* Esconda o menu mobile por padrão */
+#menu-mobile {
+  display: none;
+}
+
+/* Ajuste o posicionamento do botão */
+#toggle {
+  display: none;
+}
+
+/* Ajuste o posicionamento do botão em telas pequenas */
+#toggle-label {
+  display: none;
+}
+
+#card-beneficio{
+  display: none;
+}
+
+
+/* Adicione media query para exibir o botão apenas em telas pequenas */
+@media screen and (max-width: 1150px) {
+  
+  #toggle-label {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 1000; /* Garante que o botão apareça sobre outros elementos */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+  /* Mostrar o menu mobile */
+  #menu-mobile {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #2C2C2C;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu apareça sobre outros elementos */
+  }
+
+  /* Esconda o menu desktop */
+  #menu-desktop {
+    display: none;
+  }
+
+  /* Ajuste o estilo dos links do menu para telas pequenas */
+  #menu-mobile li {
+    display: block;
+  }
+
+  /* Ajuste o estilo dos links do menu para telas pequenas */
+  #menu-mobile a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Adicione regras para mostrar o menu quando o botão é clicado */
+  #toggle:checked ~ #menu-mobile {
+    display: block;
+  }
+
+  /* Mostrar o botão apenas em telas pequenas */
+  .toggle-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px; /* Ajuste a posição do botão para o canto direito */
+    padding: 10px;
+    z-index: 1000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #logo {
+    width: 10%;
+    right: 10%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  #logo {
+    width: 20%;
+    right: 20%;
+    margin-left: 15%;
+  }
+
+  /*home*/
+  .home-img {
+    text-align: center; /* Alinha a imagem e o texto ao centro em dispositivos móveis */
+  }
+
+  .home-img img {
+    max-width: 80%; /* Reduzindo o tamanho da imagem para dispositivos móveis */
+    margin-left: 10%;
+  }
+
+  .home-text {
+    margin-top: 20px; /* Reduzindo a margem superior do texto para dispositivos móveis */
+    text-align: center; /* Alinha o texto ao centro em dispositivos móveis */
+  }
+
+  .text-h6{
+    font-size: 15px;
+  }
+
+  .home-text .home-btn {
+    margin: 0 auto; /* Centraliza o botão horizontalmente em dispositivos móveis */
+    display: block; /* Torna o botão um elemento de bloco para ocupar a largura total em dispositivos móveis */
+    max-width: 250px; /* Define uma largura máxima para o botão em dispositivos móveis */
+    font-size: 16px; /* Reduzindo o tamanho da fonte do botão para dispositivos móveis */
+    padding: 10px 20px; /* Ajustando o padding do botão para dispositivos móveis */
+  }
+
+  .home-text .home-btn .img-button {
+    width: 20px; /* Ajustando a largura da imagem do botão para dispositivos móveis */
+    height: auto; /* Mantendo a altura automática para manter a proporção da imagem */
+    margin-right: 10px; /* Adicionando margem à direita da imagem do botão para dispositivos móveis */
+  }
+}
+
+@media screen and (max-width: 990px) {
+  /*equipe*/
+  .h2-equipe {
+    margin-right: 0;
+    text-align: center;
+    top: 1%; /* Ajuste a posição do título */
+    font-size: 25px;
+  }
+
+  .p-equipe {
+    margin-right: auto;
+    top: 3%; /* Ajuste a posição do parágrafo */
+    width: 350px;
+    right: 1%; /* Posiciona o texto a 20% da borda direita */
+    font-size: 9px;
+  }
+
+  
+  .equipe {
+    height: 250vh;
+  }
+  
+  .equipe .card {
+    text-align: center;
+    margin-bottom: 80vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
+    width: 80%;
+  }
+
+  .bnt-whatsapp,
+  .bnt-insta {
+    font-weight: 300;
+  }
+
+  /*SERVICOS*/
+
+  .servicos{
+    margin-top: 0;
+    height: 120vh;
+  }
+
+  .servicos .card{
+    width: 130%;
+    height: 70%;
+  }
+
+  #card-beneficio{
+    display: block;
+  }
+  
+  .card-title{
+    font-size: 12px;
+  }
+
+  .servicos h1{
+    font-size: 30px;
+    top: 2%;
+    position: absolute;
+    margin-left: 8%;
+  }
+
+  /*GALERIA*/
+  .galeria{
+    top: 0;
+    height: 0vh;
+    padding: 0px 1%;
+
+  }
+  
+
+  /*LOCALIZACAO*/
+  
+.img-localizacao {
+  width: 220px; /* Para a imagem ocupar todo o espaço disponível */
+  position: relative;
+  margin-left: 15%;
+}
+
+.localizacao h1{
+  font-size: 20px;
+}
+
+.localizacao p {
+  font-size: 12px;
+}
+
+.img-botao-localizacao {
+  display: none;
+}
+
+#botao-localizacao{
+  padding: 2px 2px;
+}
+
+.localizacao .me-2{
+  font-size: 12px;
+}
+
+svg{
+  top: 86%;
+}
+
+}
