@@ -465,12 +465,12 @@ svg{
     top: 3%; /* Ajuste a posição do parágrafo */
     width: 350px;
     right: 1%; /* Posiciona o texto a 20% da borda direita */
-    font-size: 9px;
+    font-size: 12px;
   }
 
   
   .equipe {
-    height: 230vh;
+    height: 220vh;
   }
   
   .equipe .card {
@@ -529,7 +529,10 @@ svg{
 }
 
 .localizacao h1{
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  margin-left: 0;
 }
 
 .localizacao p {
