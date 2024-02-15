@@ -470,13 +470,13 @@ svg{
 
   
   .equipe {
-    height: 220vh;
+    height: 230vh;
   }
   
   .equipe .card {
     text-align: center;
     margin-bottom: 75vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
-    width: 80%;
+    width: 90%;
   }
 
   .bnt-whatsapp,
