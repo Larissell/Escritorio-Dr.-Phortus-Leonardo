@@ -463,20 +463,20 @@ svg{
   .p-equipe {
     margin-right: auto;
     top: 3%; /* Ajuste a posição do parágrafo */
-    width: 350px;
-    right: 1%; /* Posiciona o texto a 20% da borda direita */
+    width: 390px;
+    right: 0; /* Posiciona o texto a 20% da borda direita */
     font-size: 12px;
   }
 
   
   .equipe {
-    height: 230vh;
+    height: 240vh;
   }
   
   .equipe .card {
     text-align: center;
     margin-bottom: 75vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
-    width: 90%;
+    width: 100%;
   }
 
   .bnt-whatsapp,
@@ -494,6 +494,7 @@ svg{
   .servicos .card{
     width: 130%;
     height: 70%;
+    text-align: center;
   }
 
   #card-beneficio{
@@ -521,6 +522,9 @@ svg{
   
 
   /*LOCALIZACAO*/
+  .localizacao{
+    top: 0;
+  }
   
 .img-localizacao {
   width: 220px; /* Para a imagem ocupar todo o espaço disponível */
