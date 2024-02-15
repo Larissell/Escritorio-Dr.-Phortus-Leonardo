@@ -470,12 +470,12 @@ svg{
 
   
   .equipe {
-    height: 250vh;
+    height: 230vh;
   }
   
   .equipe .card {
     text-align: center;
-    margin-bottom: 80vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
+    margin-bottom: 75vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
     width: 80%;
   }
 
@@ -500,7 +500,7 @@ svg{
     display: block;
   }
   
-  .card-title{
+  .servicos .card-title{
     font-size: 12px;
   }
 
