@@ -330,6 +330,7 @@ footer {
 svg{
   position: absolute;
   left: 0;
+  width: 100%;
 }
 
 /* Esconda o menu mobile por padrão */
@@ -570,6 +571,7 @@ svg{
 /*AJUSTAR A SVG, PQ NO CLL DA BRENDA FICCA BUGADO*/
 svg{
   top: 86%;
+  width: 100%;
 }
 
 /*FOOTER*/
