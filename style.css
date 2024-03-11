@@ -452,7 +452,7 @@ svg{
 
 @media screen and (max-width: 990px) {
 
-  .home-text .home-btn {
+  .home-text .home-bnt {
     margin: 0 auto; /* Centraliza o botão horizontalmente em dispositivos móveis */
     display: block; /* Torna o botão um elemento de bloco para ocupar a largura total em dispositivos móveis */
     max-width: 250px; /* Define uma largura máxima para o botão em dispositivos móveis */
@@ -460,7 +460,7 @@ svg{
     padding: 10px 20px; /* Ajustando o padding do botão para dispositivos móveis */
   }
 
-  .home-text .home-btn .img-button {
+  .home-text .home-bnt .img-button {
     width: 20px; /* Ajustando a largura da imagem do botão para dispositivos móveis */
     height: auto; /* Mantendo a altura automática para manter a proporção da imagem */
     margin-right: 10px; /* Adicionando margem à direita da imagem do botão para dispositivos móveis */
