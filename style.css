@@ -448,6 +448,9 @@ svg{
   .text-h6{
     font-size: 15px;
   }
+}
+
+@media screen and (max-width: 990px) {
 
   .home-text .home-btn {
     margin: 0 auto; /* Centraliza o botão horizontalmente em dispositivos móveis */
@@ -462,9 +465,7 @@ svg{
     height: auto; /* Mantendo a altura automática para manter a proporção da imagem */
     margin-right: 10px; /* Adicionando margem à direita da imagem do botão para dispositivos móveis */
   }
-}
-
-@media screen and (max-width: 990px) {
+  
   /*equipe*/
   .h2-equipe {
     margin-right: 0;
