@@ -79,7 +79,7 @@ html {
   margin-top: 2%;
 }
 
-.home-btn {
+.home-bnt {
   padding: 15px 20px;
   background: #3EB169;
   border-radius: 20px;
@@ -91,7 +91,7 @@ html {
   transform: scale(1.07);
 }
 
-.home-btn:hover {
+.home-bnt:hover {
   box-shadow: 0px 0px 8px #04f57c ;
   background: #04f57c;
   transform: scale(2);
