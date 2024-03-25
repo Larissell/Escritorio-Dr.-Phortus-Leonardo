@@ -348,9 +348,6 @@ svg{
   display: none;
 }
 
-#card-beneficio{
-  display: none;
-}
 
 
 /* Adicione media query para exibir o botão apenas em telas pequenas */
@@ -502,21 +499,18 @@ svg{
 
   .servicos{
     margin-top: 0;
-    height: 120vh;
+    height: 110vh;
   }
 
   .servicos .card{
-    width: 130%;
+    width: 100%;
     height: 70%;
     text-align: center;
   }
 
-  #card-beneficio{
-    display: block;
-  }
-  
+
   .servicos .card-title{
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .servicos h1{
