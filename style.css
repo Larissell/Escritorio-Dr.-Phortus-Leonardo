@@ -485,7 +485,7 @@ svg{
   
   .equipe .card {
     text-align: center;
-    margin-bottom: 80vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
+    margin-bottom: 70vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
     width: 90%;
     top:20%
   }
