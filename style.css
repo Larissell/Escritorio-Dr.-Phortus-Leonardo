@@ -55,7 +55,7 @@ html {
 }
 
 .home {
-  padding: 100px 0; /* Espaçamento interno */
+  padding: 35px 0; /* Espaçamento interno */
   background: #2C2C2C;
 }
 
@@ -104,6 +104,7 @@ html {
 
 .home-img {
   position: relative;
+  top:5%;
 }
 
 .home-img img {
@@ -114,7 +115,7 @@ html {
 
 .equipe {
   width: 100%;
-  height: 50vh;
+  height: 170vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,7 +131,7 @@ html {
   white-space: nowrap; /* Impede a quebra de linha */
   color: white;
   position: absolute;
-  top: 25%; /* Distância de 5% do topo */
+  top: 10%; /* Distância de 5% do topo */
   font-size: 40px;
   font-weight: 600;
 
@@ -145,15 +146,8 @@ html {
   font-size: 17px;
   position: absolute; /* Define o posicionamento absoluto */
   right: 20%; /* Posiciona o texto a 20% da borda direita */
-  top: 35%; /* Distância de 15% do topo */
+  top: 15%; /* Distância de 15% do topo */
   font-size: 20px;
-}
-
-.advogados{
-  display: flex;
-  position: absolute;
-  margin-top: 18%;
-  z-index: 2;
 }
 
 a{
@@ -188,13 +182,18 @@ a{
 .equipe .card {
   text-align: center;
   box-shadow: 0px 4px 4px 0px rgba(0.25, 0, 0.25, 0.25), 2px 4px 4px 2px rgba(0, 0, 0, 0.25) inset;
-  height: 6rem;
+  height: 16rem;
   background-color: #ffffff; /* Cor de fundo inicial */
-  width: 12rem;
-  margin-right: 2rem;
   text-align: center;
   width: 87%;
 }
+
+.thiago-card,.danilo-card{
+  top: 70vh;
+  left: 50%; /* Posiciona o texto a 20% da borda direita */
+
+}
+
 
 .servicos{
   width: 100%;
@@ -481,13 +480,20 @@ svg{
 
   
   .equipe {
-    height: 270vh;
+    height: 530vh;
   }
   
   .equipe .card {
     text-align: center;
-    margin-bottom: 85vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
-    width: 100%;
+    margin-bottom: 80vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
+    width: 90%;
+    top:20%
+  }
+
+  .thiago-card,.danilo-card{
+    top: 0vh;
+    left: 0%; /* Posiciona o texto a 20% da borda direita */
+  
   }
 
   .bnt-whatsapp,
@@ -509,7 +515,7 @@ svg{
   }
 
 
-  .servicos .card-title{
+  .servicos .card-title{  
     font-size: 9px;
   }
 
@@ -523,9 +529,8 @@ svg{
   /*GALERIA*/
   .galeria{
     top: 0;
-    height: 0vh;
+    height: 0;
     padding: 0px 1%;
-
   }
   
 
@@ -545,6 +550,7 @@ svg{
   text-align: center;
   position: relative;
   margin-left: 0;
+  top:0;
 }
 
 .localizacao p {
