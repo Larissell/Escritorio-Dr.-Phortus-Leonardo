@@ -480,13 +480,13 @@ svg{
 
   
   .equipe {
-    height: 445vh;
+    height: 475vh;
   }
   
   .equipe .card {
     text-align: center;
-    margin-bottom: 60vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
-    width: 90%;
+    margin-bottom: 65vh; /* Adicione uma margem inferior para criar espaçamento entre os cards */
+    width: 100%;
     top:15%
   }
 
