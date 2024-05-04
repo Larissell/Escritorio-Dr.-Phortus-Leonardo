@@ -426,10 +426,10 @@ svg{
     margin-left: 15%;
   }
 
-  /*home*/
-  .home-img {
-    text-align: center; /* Alinha a imagem e o texto ao centro em dispositivos móveis */
-  }
+   .home-img {
+      text-align: center; /* Alinha a imagem e o texto ao centro em dispositivos móveis */
+      display: none;
+    }
 
   .home-img img {
     max-width: 80%; /* Reduzindo o tamanho da imagem para dispositivos móveis */
