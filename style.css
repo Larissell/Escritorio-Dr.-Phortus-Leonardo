@@ -428,7 +428,6 @@ svg{
 
    .home-img {
       text-align: center; /* Alinha a imagem e o texto ao centro em dispositivos móveis */
-      display: none;
     }
 
   .home-img img {
