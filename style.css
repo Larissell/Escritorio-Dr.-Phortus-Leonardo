@@ -419,7 +419,34 @@ svg{
 }
 
 @media screen and (max-width: 650px) {
+  .home{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background-image: url('../img/Store\ do\ Insta-11.jpg');
+      background-size:cover;
+      background-position:center;
+      position: relative; /* Necessário para a posição absoluta da pseudo-classe */
+    }
+    .home::before {
+      content: ""; /* Obrigatório para a pseudo-classe */
+      position: absolute; /* Posiciona a sobreposição */
+      top: 0; /* Alinha a sobreposição ao topo da seção */
+      right: 0; /* Alinha a sobreposição ao lado direito da seção */
+      bottom: 0; /* Alinha a sobreposição ao fundo da seção */
+      left: 0; /* Alinha a sobreposição ao lado esquerdo da seção */
+      background-color: rgba(0, 0, 0, 0.3); /* Cor cinza com 50% de opacidade */
+    }
+    .home-text .text-h6{
+      color: #f7f8b0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto */
 
+    }
+    .home-text p{
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra de texto */
+    }
+  
   #logo {
     width: 20%;
     right: 20%;
