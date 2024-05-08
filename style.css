@@ -424,7 +424,7 @@ svg{
       display:flex;
       justify-content:center;
       align-items:center;
-      background-image: url('../img/Store\ do\ Insta-11.jpg');
+      background-image: url('img_fundo.jpg');
       background-size:cover;
       background-position:center;
       position: relative; /* Necessário para a posição absoluta da pseudo-classe */
